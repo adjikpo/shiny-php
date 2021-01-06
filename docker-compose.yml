@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+    php:
+        image: 'php:apache'
+        volumes:
+            - './:/usr/share/nginx/html'
+    composer:
+        image: 'composer:1.8'
+        command: install
+        volumes:
+            - './:/app'
