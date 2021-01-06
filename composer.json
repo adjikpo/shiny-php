@@ -1,8 +1,11 @@
 {
-    "name": "cours/battle",
+    "name": "adjikpo/shiny-php",
     "type": "project",
     "license": "MIT",
-    "require": {},
+    "require-dev": {
+      "symfony/var-dumper": "^5.2",
+      "fakerphp/faker": "^1.13"
+    },
     "autoload": {
       "psr-4": {
         "Game\\": "src/"
