@@ -1,0 +1,11 @@
+{
+    "name": "cours/battle",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Game\\": "src/"
+      }
+    }
+  }
