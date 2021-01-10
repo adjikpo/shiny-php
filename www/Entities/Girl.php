@@ -5,5 +5,4 @@ namespace App\Entities;
 
 class Girl extends Student
 {
-
 }
